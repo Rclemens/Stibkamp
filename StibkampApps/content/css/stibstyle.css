@@ -1,0 +1,225 @@
+﻿body
+{
+	margin:0 0 0 0;
+}
+
+td
+{
+	font-family:Tahoma;
+	font-size:11px;
+}
+
+.menu
+{
+	font-weight:bold;
+	text-decoration:none;
+	color:#000000;
+	font-size:10px;
+}
+
+H1
+{
+	color:#FFFFFF;
+	font-size:36px;
+	padding-left:10px;
+	padding-top:0px;
+}
+
+H2
+{
+	color:#000000;
+	font-size:30px;
+}
+
+
+.mainTable
+{
+	border:0;
+	height:100%;
+}
+
+.mainTable .firstrow
+{
+	width:50%;
+	height:100%;
+	background-image:url("/content/images/bg1222.jpg");
+	background-position:right top;
+	background-repeat:repeat-y;
+}
+
+.mainTable .secondrow
+{
+	width:1px;
+	background-color:#000000;
+}
+
+.mainTable .thirdrow
+{
+	vertical-align:top;
+	height:100%;
+}
+
+.mainTable .fourthrow
+{
+	vertical-align:top;
+	height:100%;
+	background-image:url("/content/images/bgbot.jpg");
+}
+
+.mainTable .fifthrow
+{
+	width:1px;
+	background-color:#000000;
+}
+
+.mainTable .sixthrow
+{
+	width:50%;
+	height:100%;
+	background-image:url("/content/images/bg1223.jpg");
+	background-position:left top; 
+	background-repeat:repeat-y
+}
+
+.mainTable .footerrow
+{
+	width:780px;
+	height:93px;
+	background-image:url("/content/images/footer.jpg");
+	padding-left:50px;
+}
+.maindiv
+{
+	position:relative;
+}
+
+.newswrapper
+{
+	position:absolute;
+	top:180px;
+	right:22px;
+}
+
+.newswrapper table
+{
+	width:256px;
+	font-size:12px;
+}
+
+.newswrapper .newstable .newscontent
+{
+
+	background-color:#f9b701;
+}
+
+.newsfooter
+{
+	background-image: url("/content/images/newsfooter.png");
+	background-repeat:no-repeat;
+	height:61px;
+	
+}
+
+.tussenlijn
+{
+	background-image: url("/content/images/cap02.jpg");
+	background-repeat:repeat-x;
+	height:8px;
+	width:780px;
+}
+
+.mainTable .contenwrapper .content
+{
+	width:480px;
+	padding:0 10px 0 10px;
+	color:#ffffff;
+	font-size:12px;
+}
+
+.mainTable .contenwrapper .content p, .mainTable .contenwrapper .content td
+{
+	color:#ffffff;
+	font-size:12px;
+}
+
+.mainTable .contenwrapper .content strong
+{
+	color:#000000;
+	font-size:12px;
+}
+
+.mainTable .contenwrapper .content a, .mainTable .contenwrapper .content a:hover
+{
+	color:#ffffff;
+	font-weigth:bold;
+}
+
+.mainTable .contenwrapper .content img
+{
+	padding:10 10 10 10;
+}
+
+.mainTable .contenwrapper
+{
+	
+}
+
+.mainTable .thirdrow .contenwrapper .contenrow
+{
+	width:502px;
+	height:119px;
+	background-image:url("/content/images/bg01.jpg");
+	background-repeat:repeat-y right top;
+}
+
+.mainTable .thirdrow .contenwrapper .topmenuWrapper
+{
+	background-image:url("/content/images/m06.jpg");
+	height:50px;
+	width:780px;
+}
+
+.mainTable .thirdrow .contenwrapper .topmenuWrapper .topmenu
+{
+	width:88px;
+	height:40px;
+	float:left;
+	text-align:center;
+	margin-top:15px;	
+}
+
+.mainTable .thirdrow .contenwrapper .topmenuWrapper .topmenu a
+{
+	color:White;
+	text-decoration:none;
+	font-size:11px;
+	font-weight:bold;
+}
+
+.mainTable .thirdrow .contenwrapper .topmenuWrapper .topmenu a:hover
+{
+	color:White;
+	text-decoration:underline;
+}
+
+
+.block2img
+{
+	float:left; 
+	margin: 15px 10px 0 15px;
+}
+
+.newsImgLeft
+{
+	float:left; 
+	margin: 5px 10px 0 5px;
+}
+
+.newsImgRight
+{
+	float:right; 
+	margin: 5px 10px 0 5px;
+}
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */

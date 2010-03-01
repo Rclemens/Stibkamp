@@ -1,0 +1,2 @@
+﻿<%@ Control Language="C#" AutoEventWireup="true" CodeBehind="ValidationControl.ascx.cs" Inherits="form.controls.ValidationControl" %>
+<asp:RequiredFieldValidator ID="validator" runat="server"></asp:RequiredFieldValidator>

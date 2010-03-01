@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6adfb1bf-18d1-4aab-a549-51dedb5a730a" name="Ray@RAY-PC 2010-02-28 12:41:58" runUser="Ray-PC\Ray" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="3b7a2286-d208-4b2c-ac8b-459f6eb4baaf">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="D:\projects\StibkampApps\TestResults\Ray_RAY-PC 2010-02-28 12_41_58">
+      <DeploymentItem filename="D:\projects\StibkampApps\form\bin\form.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-02-28T12:41:58.3110810+01:00" queuing="2010-02-28T12:42:07.4186019+01:00" start="2010-02-28T12:42:07.8166247+01:00" finish="2010-02-28T12:42:09.6677305+01:00" />
+  <TestDefinitions>
+    <UnitTest name="If_Name_is_empty_When_contact_is_saved_Then_throwContactUncompleteError" storage="d:\projects\stibkampapps\stibkamptest\bin\debug\stibkamptest.dll" id="b40325a3-5667-7b51-e973-6d2e69bbddba">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c5146b91-5fca-417d-8b9e-2cf0a3f47226" />
+      <TestMethod codeBase="D:\projects\StibkampApps\StibkampTest\bin\Debug\StibkampTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StibkampTest.UnitTest1, StibkampTest" name="If_Name_is_empty_When_contact_is_saved_Then_throwContactUncompleteError" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="b40325a3-5667-7b51-e973-6d2e69bbddba" executionId="c5146b91-5fca-417d-8b9e-2cf0a3f47226" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="c5146b91-5fca-417d-8b9e-2cf0a3f47226" testId="b40325a3-5667-7b51-e973-6d2e69bbddba" testName="If_Name_is_empty_When_contact_is_saved_Then_throwContactUncompleteError" computerName="RAY-PC" duration="00:00:00.6164529" startTime="2010-02-28T12:42:07.9876344+01:00" endTime="2010-02-28T12:42:09.5577242+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method StibkampTest.UnitTest1.If_Name_is_empty_When_contact_is_saved_Then_throwContactUncompleteError threw exception System.NullReferenceException, but exception System.InvalidOperationException was expected. Exception message:  System.NullReferenceException: Object reference not set to an instance of an object.
+</Message>
+          <StackTrace>    at form.entities.StibContactDataContext..ctor() in D:\projects\StibkampApps\form\entities\StibContact.designer.cs:line 38
+   at form.Data.StibContactManager..ctor() in D:\projects\StibkampApps\form\Data\StibContactManager.cs:line 13
+   at StibkampTest.UnitTest1.If_Name_is_empty_When_contact_is_saved_Then_throwContactUncompleteError() in D:\projects\StibkampApps\StibkampTest\UnitTest1.cs:line 79
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="eba4b4e0-2cf2-4095-8161-79acd13aa677" name="Ray@RAY-PC 2010-02-28 00:54:14" runUser="Ray-PC\Ray" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="3b7a2286-d208-4b2c-ac8b-459f6eb4baaf">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="D:\projects\StibkampApps\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="D:\projects\StibkampApps\TestResults\Ray_RAY-PC 2010-02-28 00_54_14">
+      <DeploymentItem filename="D:\projects\StibkampApps\form\bin\form.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-02-28T00:54:14.3543681+01:00" queuing="2010-02-28T00:54:20.0486938+01:00" start="2010-02-28T00:54:20.8127375+01:00" finish="2010-02-28T00:54:22.6538428+01:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="d:\projects\stibkampapps\stibkamptest\bin\debug\stibkamptest.dll" id="6ebc45c2-900b-8546-5320-a9f69388bee7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7d415fc4-530d-4f88-a7e1-11fd1983b3c7" />
+      <TestMethod codeBase="D:\projects\StibkampApps\StibkampTest\bin\Debug\StibkampTest.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="StibkampTest.UnitTest1, StibkampTest" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="6ebc45c2-900b-8546-5320-a9f69388bee7" executionId="7d415fc4-530d-4f88-a7e1-11fd1983b3c7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="7d415fc4-530d-4f88-a7e1-11fd1983b3c7" testId="6ebc45c2-900b-8546-5320-a9f69388bee7" testName="TestMethod1" computerName="RAY-PC" duration="00:00:00.0160707" startTime="2010-02-28T00:54:21.0637518+01:00" endTime="2010-02-28T00:54:22.1898162+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

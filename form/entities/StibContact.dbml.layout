@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="StibContact">
+  <DataContextMoniker Name="/StibContactDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ba31d6d1-43cd-4109-9a3b-7f4cd604a3d6" absoluteBounds="3.75, 2.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/StibContactDataContext/StibContact" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1f607ec2-d6eb-4b54-825f-ee815d372266" absoluteBounds="3.765, 2.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
