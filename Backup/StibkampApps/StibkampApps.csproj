@@ -1,0 +1,367 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01503C54-9DC6-4AFB-844C-32B7FD6E8A04}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StibkampApps</RootNamespace>
+    <AssemblyName>StibkampApps</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="asyncPage.aspx" />
+    <Content Include="content\css\jquery.tooltip.css" />
+    <Content Include="content\css\screen.css" />
+    <Content Include="content\css\stibpics.css" />
+    <Content Include="content\css\stibstyle.css" />
+    <Content Include="content\css\styles.css" />
+    <Content Include="content\css\Tidy.css" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="content\css\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="content\css\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="content\css\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="content\css\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="content\css\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="content\css\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="content\css\ui-lightness\jquery-ui-1.7.2.custom.css" />
+    <Content Include="content\images\arr.gif" />
+    <Content Include="content\images\arr1.gif" />
+    <Content Include="content\images\bg01.jpg" />
+    <Content Include="content\images\bg02.jpg" />
+    <Content Include="content\images\bg1222.jpg" />
+    <Content Include="content\images\bg1223.jpg" />
+    <Content Include="content\images\bgbot.jpg" />
+    <Content Include="content\images\bgpic.jpg" />
+    <Content Include="content\images\bgr01.jpg" />
+    <Content Include="content\images\bgr02.jpg" />
+    <Content Include="content\images\bgr03.jpg" />
+    <Content Include="content\images\bgr04.jpg" />
+    <Content Include="content\images\bgr05.jpg" />
+    <Content Include="content\images\bgsub.jpg" />
+    <Content Include="content\images\cap02.jpg" />
+    <Content Include="content\images\capnews.gif" />
+    <Content Include="content\images\capnews.jpg" />
+    <Content Include="content\images\capnews.png" />
+    <Content Include="content\images\capwelcome.jpg" />
+    <Content Include="content\images\lastparty.jpg" />
+    <Content Include="content\images\m01.jpg" />
+    <Content Include="content\images\m02.jpg" />
+    <Content Include="content\images\m03.jpg" />
+    <Content Include="content\images\m04.jpg" />
+    <Content Include="content\images\m05.jpg" />
+    <Content Include="content\images\m06.jpg" />
+    <Content Include="content\images\m07.jpg" />
+    <Content Include="content\images\name.jpg" />
+    <Content Include="content\images\newsfooter.gif" />
+    <Content Include="content\images\newsfooter.png" />
+    <Content Include="content\images\pic01.jpg" />
+    <Content Include="content\images\pic011.jpg" />
+    <Content Include="content\images\pic02.jpg" />
+    <Content Include="content\images\pics1.jpg" />
+    <Content Include="content\images\pics2.jpg" />
+    <Content Include="content\images\spacer.gif" />
+    <Content Include="content\images\subheader.jpg" />
+    <Content Include="content\images\welcomepic.jpg" />
+    <Content Include="content\scripts\cufon-yui.js" />
+    <Content Include="content\scripts\Curlz_MT_400.font.js" />
+    <Content Include="content\images\footer.jpg" />
+    <Content Include="content\images\helestibheader_01.jpg" />
+    <Content Include="content\images\image048_139x116.jpg" />
+    <Content Include="content\images\memini.jpg" />
+    <Content Include="content\images\mw.gif" />
+    <Content Include="content\images\pic012.jpg" />
+    <Content Include="content\images\pic013.jpg" />
+    <Content Include="content\images\pic014.jpg" />
+    <Content Include="content\images\Picture_035.jpg" />
+    <Content Include="content\images\styles.css" />
+    <Content Include="content\scripts\jquery-1.3.2.min.js" />
+    <Content Include="content\scripts\jquery-ui-1.7.2.custom.min.js" />
+    <Content Include="content\scripts\jquery.bgiframe.js" />
+    <Content Include="content\scripts\jquery.delegate.js" />
+    <Content Include="content\scripts\jquery.dimensions.js" />
+    <Content Include="content\scripts\jquery.galleria.js" />
+    <Content Include="content\scripts\jquery.js" />
+    <Content Include="content\scripts\jquery.tooltip.js" />
+    <Content Include="content\scripts\jquery.tooltip.min.js" />
+    <Content Include="content\scripts\jquery.tooltip.pack.js" />
+    <Content Include="control\StibPicsControl.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="HTMLPage1.htm" />
+    <Content Include="org1.htm" />
+    <Content Include="stibpics2.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="WriteFileStuff.xml" />
+    <Content Include="_home.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="asyncPage.aspx.cs">
+      <DependentUpon>asyncPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="asyncPage.aspx.designer.cs">
+      <DependentUpon>asyncPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="control\StibContact.ascx.cs">
+      <DependentUpon>StibContact.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="control\StibContact.ascx.designer.cs">
+      <DependentUpon>StibContact.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="control\StibPicsControl.ascx.cs">
+      <DependentUpon>StibPicsControl.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="control\StibPicsControl.ascx.designer.cs">
+      <DependentUpon>StibPicsControl.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="control\StibRegWizard.ascx.cs">
+      <DependentUpon>StibRegWizard.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="control\StibRegWizard.ascx.designer.cs">
+      <DependentUpon>StibRegWizard.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="master\main.Master.cs">
+      <DependentUpon>main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="master\main.Master.designer.cs">
+      <DependentUpon>main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="stibpics2.aspx.cs">
+      <DependentUpon>stibpics2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="stibpics2.aspx.designer.cs">
+      <DependentUpon>stibpics2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ValidationControls\CustomValidator.cs" />
+    <Compile Include="ValidationControls\RegularExpressionValidator.cs" />
+    <Compile Include="ValidationControls\RequiredFieldValidator.cs" />
+    <Compile Include="ValidationControls\ValidationTypes.cs" />
+    <Compile Include="_contact.aspx.cs">
+      <DependentUpon>_contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_contact.aspx.designer.cs">
+      <DependentUpon>_contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_home.aspx.cs">
+      <DependentUpon>_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_home.aspx.designer.cs">
+      <DependentUpon>_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_home2.aspx.cs">
+      <DependentUpon>_home2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_home2.aspx.designer.cs">
+      <DependentUpon>_home2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_jongsteKamp.aspx.cs">
+      <DependentUpon>_jongsteKamp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_jongsteKamp.aspx.designer.cs">
+      <DependentUpon>_jongsteKamp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_register.aspx.cs">
+      <DependentUpon>_register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_register.aspx.designer.cs">
+      <DependentUpon>_register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="_stibpics.aspx.cs">
+      <DependentUpon>_stibpics.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="_stibpics.aspx.designer.cs">
+      <DependentUpon>_stibpics.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="content\css\calender.css" />
+    <Content Include="content\css\jquery.lightbox-0.5.css" />
+    <Content Include="content\css\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="content\css\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="content\css\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="content\css\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="content\css\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="content\css\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="content\css\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="content\css\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="content\css\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="content\css\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="content\css\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="content\css\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="content\css\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="content\css\themes\base\ui.accordion.css" />
+    <Content Include="content\css\themes\base\ui.all.css" />
+    <Content Include="content\css\themes\base\ui.base.css" />
+    <Content Include="content\css\themes\base\ui.core.css" />
+    <Content Include="content\css\themes\base\ui.datepicker.css" />
+    <Content Include="content\css\themes\base\ui.dialog.css" />
+    <Content Include="content\css\themes\base\ui.progressbar.css" />
+    <Content Include="content\css\themes\base\ui.resizable.css" />
+    <Content Include="content\css\themes\base\ui.slider.css" />
+    <Content Include="content\css\themes\base\ui.tabs.css" />
+    <Content Include="content\css\themes\base\ui.theme.css" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_diagonals-thick_18_b81900_40x40.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_diagonals-thick_20_666666_40x40.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_flat_10_000000_40x100.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_glass_100_f6f6f6_1x400.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_glass_100_fdf5ce_1x400.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_gloss-wave_35_f6a828_500x100.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-icons_222222_256x240.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-icons_228ef1_256x240.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-icons_ef8c08_256x240.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-icons_ffd27a_256x240.png" />
+    <Content Include="content\css\themes\ui-lightness\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="content\css\themes\ui-lightness\jquery-ui-1.7.2.custom.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.accordion.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.all.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.base.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.core.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.datepicker.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.dialog.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.progressbar.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.resizable.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.slider.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.tabs.css" />
+    <Content Include="content\css\themes\ui-lightness\ui.theme.css" />
+    <Content Include="content\images\lightbox-blank.gif" />
+    <Content Include="content\images\lightbox-btn-close.gif" />
+    <Content Include="content\images\lightbox-btn-next.gif" />
+    <Content Include="content\images\lightbox-btn-prev.gif" />
+    <Content Include="content\images\lightbox-ico-loading.gif" />
+    <Content Include="content\images\nextBtn.png" />
+    <Content Include="content\images\previousBtn.png" />
+    <Content Include="content\images\seperator.gif" />
+    <Content Include="content\scripts\Init.js" />
+    <Content Include="content\scripts\jquery.lightbox-0.5.js" />
+    <Content Include="content\scripts\jquery.lightbox-0.5.min.js" />
+    <Content Include="content\scripts\jquery.lightbox-0.5.pack.js" />
+    <Content Include="content\scripts\jquery.min.js" />
+    <Content Include="content\scripts\ui.datepicker.js" />
+    <Content Include="control\StibContact.ascx" />
+    <Content Include="control\StibRegWizard.ascx" />
+    <Content Include="EmailTemplate\StibContact.html" />
+    <Content Include="EmailTemplate\StibRegistration.html" />
+    <Content Include="master\main.Master" />
+    <Content Include="onlinebackup\home.htm" />
+    <Content Include="onlinebackup\master.htm" />
+    <Content Include="onlinebackup\subpage.htm" />
+    <Content Include="_contact.aspx" />
+    <Content Include="_home2.aspx" />
+    <Content Include="_jongsteKamp.aspx" />
+    <Content Include="_register.aspx" />
+    <Content Include="_stibpics.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\form\form.csproj">
+      <Project>{1DECAEF7-4032-475B-8CFF-B027B0DFA34E}</Project>
+      <Name>form</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebControlCaptcha\WebControlCaptcha.vbproj">
+      <Project>{03D1C790-162A-4AC0-B33B-634B263C0A63}</Project>
+      <Name>WebControlCaptcha</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>57912</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

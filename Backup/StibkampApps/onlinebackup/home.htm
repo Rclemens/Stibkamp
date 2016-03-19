@@ -1,0 +1,79 @@
+﻿<%@ Master Language="C#" MasterPageFile="/masterpages/Master.master" AutoEventWireup="true" %>
+
+<asp:Content ContentPlaceHolderID="ChildPlaceHolder" runat="server">
+ <tr>
+                            <td width="780" background="images/bg01.jpg">
+                                <div class="content">
+                                    <umbraco:Item field="Block1_text" runat="server"></umbraco:Item></div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="tussenlijn">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="780" height="100%" background="images/bg02.jpg" valign="top">
+                                <div class="content">
+                                    <umbraco:Item field="Block2_text" runat="server"></umbraco:Item>
+                                </div>
+                            </td>
+                        </tr>
+</asp:Content>
+
+<asp:content ContentPlaceHolderId="NewsPlaceHolder" runat="server" >
+	 <table cellpadding="0" cellspacing="0" class="newstable">
+                            <tr>
+                                <td>
+                                    <img src="images/capnews.png">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="newscontent" width="278" height="96" background="images/bgr02.jpg" style="background-repeat: no-repeat;"
+                                    valign="top">
+                                    <umbraco:Item runat="server" field="Image1"  recursive="true"
+					xslt="concat('&lt;img class=&quot;newsImgLeft&quot; src=&quot;', umbraco.library:GetMedia({0},'true')/data[@alias='umbracoFile'], '&quot; /&gt;')"
+					xsltDisableEscaping="true" />
+					<div style="padding-right: 20px; padding-top: 10px;">
+                                        	<umbraco:Item field="Text1" runat="server"></umbraco:Item>
+					</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="newscontent" width="278" height="90" background="images/bgr02.jpg" style="background-repeat: no-repeat;"
+                                    valign="top" style="padding-right: 25px;">
+                                    <umbraco:Item runat="server" field="Image2"  recursive="true"
+					xslt="concat('&lt;img class=&quot;newsImgRight&quot; src=&quot;', umbraco.library:GetMedia({0},'true')/data[@alias='umbracoFile'], '&quot; /&gt;')"
+					xsltDisableEscaping="true" />
+					<div style="padding-left: 20px; padding-top: 10px;">
+                                        	<umbraco:Item field="Text2" runat="server"></umbraco:Item>
+					</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="newscontent" width="278" height="90" background="images/bgr02.jpg" style="background-repeat: no-repeat;"
+                                    valign="top">
+                                    <umbraco:Item runat="server" field="Image3"  recursive="true"
+					xslt="concat('&lt;img class=&quot;newsImgLeft&quot; src=&quot;', umbraco.library:GetMedia({0},'true')/data[@alias='umbracoFile'], '&quot; /&gt;')"
+					xsltDisableEscaping="true" />
+					<div style="padding-right: 20px; padding-top: 10px;">
+						<umbraco:Item field="Text3" runat="server"></umbraco:Item>                                    
+					</div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="newscontent" width="278" height="108" background="images/bgr02.jpg" style="background-repeat: no-repeat;"
+                                    valign="top" style="padding-right: 25px;">
+                                   <umbraco:Item runat="server" field="Image4"  recursive="true"
+					xslt="concat('&lt;img class=&quot;newsImgRight&quot; src=&quot;', umbraco.library:GetMedia({0},'true')/data[@alias='umbracoFile'], '&quot; /&gt;')"
+					xsltDisableEscaping="true" />
+					<div style="padding-left: 20px; padding-top: 10px;">
+                                        	<umbraco:Item field="Text4" runat="server"></umbraco:Item>
+					</div>	
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="newsfooter"></td>
+                            </tr>
+                        </table>
+</asp:content>

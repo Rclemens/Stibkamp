@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>DOM Styles - Example 2</title>
+    <style type="text/css">
+        p
+        {
+            text-align: center;
+        }
+        body
+        {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1">
+        Some paragraph Text</p>
+    <div>
+        This is some body text</div>
+    <hr />
+
+    <script type="text/javascript">
+        document.write("Number of styleSheets: #" + document.styleSheets.length);
+        var stylesheet = document.styleSheets[0];
+        // Check to see if we are operating in Internet Explorer
+        if (stylesheet.rules) {
+            document.write("<br />Internet Explorer detected.<br />");
+            // Map the standard DOM attributes and methods to the internet explorer
+            // equivalents
+            stylesheet.cssRules = stylesheet.rules;
+            stylesheet.insertRule = function(ruleText, ruleIndex) {
+                this.addRule(ruleText, ruleIndex);
+            };
+            stylesheet.deleteRule = function(ruleIndex) {
+                this.removeRule(ruleIndex);
+            };
+        }
+        // The ‘p’ style rule
+        document.write("<br /><br /> 1st Style rule (text-Align) value: " +
+stylesheet.cssRules[0].style.textAlign);
+        // The ‘body’ style rule
+        document.write("<br /> 2nd Style rule (color) value: " +
+stylesheet.cssRules[1].style.color);
+        alert("Deleting the ‘body’ color style rule.");
+        stylesheet.deleteRule(1);
+    </script>
+
+</body>
+</html>
